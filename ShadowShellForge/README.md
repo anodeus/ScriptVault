@@ -3,7 +3,7 @@
 
 A powerful Windows payload generator with built-in password protection. Easily create reverse shell payloads, customize IP and port, and deploy safely in lab environments. Perfect for educational and penetration testing exercises.
 
----
+
 
 ## 📂 Structure
 
@@ -22,7 +22,7 @@ ShadowShellForge/
 └── README.txt                   ← this documentation
 ```
 
----
+
 
 ## 🛠️ How It Works
 
@@ -32,7 +32,7 @@ ShadowShellForge/
 * The script dynamically reveals the password.
 * Copy this password. It will be used to unlock the generator.
 
----
+
 
 ### 2. Running the Generator
 
@@ -48,7 +48,7 @@ ShadowShellForge/
 
 4. The payload is saved in `payloads/` as `file_payload_singh.bin`.
 
----
+
 
 ### 3. Running the Listener
 
@@ -57,22 +57,14 @@ ShadowShellForge/
 3. A Netcat listener window opens
 4. When the payload connects, you get a shell
 
----
 
-### ⚠️ Notes
+
+## Notes
 
 * **Testing only** use in lab or on systems you own
 * Payloads require **PowerShell on Windows** to work
 * `files/` and `payloads/` should start **empty except for the placeholders**
 
----
-
-
-Perfect! You want to **add a disclaimer** to make it clear that this is **educational only** and you’re **not responsible for misuse**.
-
-Here’s a professional way to add it to your README **and optionally to the scripts themselves**.
-
----
 
 
 ## ⚠️ Disclaimer
